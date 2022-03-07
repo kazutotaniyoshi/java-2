@@ -23,7 +23,7 @@ public int play(int sec) {
 	
 	this.mp += recoverAfter;
 	return recoverAfter;
-	System.out.println(this.name+"は"+sec+"のHPを回復した");
+	System.out.println(this.name+"は"+recoverAfter+"のHPを回復した");
 }
 
 
