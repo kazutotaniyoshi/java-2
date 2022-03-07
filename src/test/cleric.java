@@ -22,7 +22,7 @@ public int play(int sec) {
 	int recoverAfter = Math.min(this.maxHp - this.mp,recover);
 	
 	this.mp += recoverAfter;
-	System.out.println(recoverAfter+"MP回復した");
+	System.out.println(recoverAfter+"MP回復");
 	return recoverAfter;
 }
 
